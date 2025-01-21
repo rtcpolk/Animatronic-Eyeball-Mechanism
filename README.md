@@ -39,5 +39,7 @@ instructions
 
 ### Installing MicroROS
 To install `microROS` follow the official [tutorial](https://micro.ros.org/docs/tutorials/core/first_application_rtos/freertos/) on creating your first microROS application for FreeRTOS. Since this project uses the ESP32 Dev Modules that run freeRTOS, the `# Create step` command is:
-```ros2 run micro_ros_setup create_firmware_ws.sh freertos esp32```
+```
+ros2 run micro_ros_setup create_firmware_ws.sh freertos esp32
+```
 If you are using a different microcontroller with a different RTOS the `# Create step` command will be different.
