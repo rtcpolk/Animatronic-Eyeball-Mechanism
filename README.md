@@ -13,12 +13,12 @@ This eyeball mechanism is being developed by Team Blink at Vanderbilt University
 
 ## Hardware and Software Requirements
 This project utilizes the following:
-'''
+```
 Ubuntu 22.04
 ROS2 Humble
 MicroRos
 ESP32 Dev Module
-'''
+```
 
 
 ## Installation
