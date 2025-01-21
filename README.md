@@ -5,6 +5,7 @@ An animatronic eyeball mechanism that rotates a sphereical eyeball 360° (or mor
 
 <!--ts-->
    * [About](#about)
+   * [Hardware and Software Requirements](#hardware and software requirements)
    * [Installation](#installation)
 <!--te-->
 
