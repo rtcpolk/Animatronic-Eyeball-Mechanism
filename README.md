@@ -4,12 +4,12 @@ An animatronic eyeball mechanism that rotates a sphereical eyeball 360° (or mor
 ## Table of Contents
 
 <!--ts-->
-   * [About](##About)
+   * [About the Project](##About)
    * [Project Hardware and Software](##Hardware)
    * [Installation](#Installation)
 <!--te-->
 
-## About
+## About the Project
 This eyeball mechanism is being developed by `Team Blink` at Vanderbilt University for our mechanical engineering senior captstone project. This project is sponsored by [Animax Designs](https://www.animaxdesigns.com/), a global animatronic company based in Nashville, TN. The mechanism is able to rotate a spherical eyeball around any axis, allowing any point on the sphere to be front facing. It has two operational modes: `Path Following` and `Facial Tracking` (hopefully).
 
 While the code in this repository is specialized for this mechanism, hopefully it can serve as a guide for those looking to integrate `ROS2` and `microROS` into their own robotics projects.
