@@ -28,10 +28,15 @@ This section is a guide on how I installed all of the necessary dependencies and
 
 If you are unfamiliar with `ROS2` or `microROS`, check out the official [ROS2 Concepts Documentation](https://docs.ros.org/en/humble/Concepts.html) or [microROS Concepts Documentation](https://micro.ros.org/docs/concepts/client_library/introduction/).
 
+### Structure
 The project is structured to have a root directory `Animatronic-Eyeball-Mechanism`, with two workspaces - `microros_Ws` and `ros2_ws`. I did this because the `microROS` applications that run on the microcontroller have a different build sequence than the traditional `ros2` packages that run on the host computer. There is likley a way to combine these into a single workspace but I left them separate for simplicity sake. 
 
 ### Installing Ubuntu on a Virutal Machine
+instructions
+
 ### Installing ROS2 Humble
+instructions
+
 ### Installing MicroROS
 To install `microROS follow the official [tutorial](https://micro.ros.org/docs/tutorials/core/first_application_rtos/freertos/) on creating your first microROS application for FreeRTOS. Since this project uses the ESP32 Dev Modules that run freeRTOS, the `# Create step` command is as follows:
 'ros2 run micro_ros_setup create_firmware_ws.sh freertos esp32'
