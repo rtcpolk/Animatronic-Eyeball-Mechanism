@@ -30,7 +30,7 @@ Hardware:
 ```
 
 ## Installation
-This section is a guide on how I installed all of the necessary dependencies and setup the project workspaces. This is my first time working with something of this nature, and I had to piece together a few different tutorials online as I couldn't find one that worked out of the gate. Links to those tutorials are at the end of this section. 
+This section is a guide on how I installed all of the necessary dependencies and setup the project workspaces. This is my first time working with something of this nature, and I had to piece together a few different tutorials online as I couldn't find one that worked out of the gate. These tutorials are Linked throughout this section. 
 
 If you are unfamiliar with `ROS2` or `microROS`, check out the official [ROS2 Concepts Documentation](https://docs.ros.org/en/humble/Concepts.html) or [microROS Concepts Documentation](https://micro.ros.org/docs/concepts/client_library/introduction/).
 
