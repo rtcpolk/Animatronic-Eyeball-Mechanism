@@ -61,8 +61,11 @@ Follow the rest of the tutorial to flash the example app. You may need to press 
 Once the custom app has been created, use the 4 steps of the `microROS` build system to flash the app onto the ESP32:
 ```
 Create: Download the required firmware code for your specific microcontroller
+
 Configure: Select which app to compile and eventually flash onto your microcontroller
+
 Build: Build the app and generate project binaries
+
 Flash: Upload the binaries onto your microcontroller
 ```
 The documentation goes more in depth on these steps. The firmware workspace has already been created so this step can be skipped. Configure the workspace for the custom app, build it, and then flash it onto the ESP32. The commands below assume serial communication is being used. Different configurations can be used, see the [documentation](https://micro.ros.org/docs/tutorials/core/first_application_rtos/freertos/).
@@ -73,7 +76,7 @@ ros2 run micro_ros_setup flash_firmware.sh
 ```
 
 ## File Structure
-This project is structured with the root directory `Animatronic-Eyeball-Mechanism` containing two workspaces - `microros_Ws` and `ros2_ws`. I did this because the `microROS` applications that run on the microcontroller have a different build sequence than the traditional `ros2` packages that run on the host computer. There is likley a way to combine these into a single workspace but I left them separate for simplicity sake. All of the applications that will be flashed onto the ESP32 go into the `microros_ws/firmware/freertos_apps/apps` directory, and all of the `ROS2` packages to be run on the host computer go into the `ros2_ws/src` directory.
+This project is structured with the root directory `Animatronic-Eyeball-Mechanism` containing two workspaces - `microros_ws` and `ros2_ws`. I did this because the `microROS` applications that run on the microcontroller have a different build sequence than the traditional `ros2` packages that run on the host computer. There is likley a way to combine these into a single workspace but I left them separate for simplicity sake. All of the applications that will be flashed onto the ESP32 go into the `microros_ws/firmware/freertos_apps/apps` directory, and all of the `ROS2` packages to be run on the host computer go into the `ros2_ws/src` directory.
 
 ## License
 This project is under the Apache 2.0 open source license.
