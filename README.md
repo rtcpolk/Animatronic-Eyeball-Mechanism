@@ -29,7 +29,7 @@ This section is a guide on how I installed all of the necessary dependencies and
 If you are unfamiliar with `ROS2` or `microROS`, check out the official [ROS2 Concepts Documentation](https://docs.ros.org/en/humble/Concepts.html) or [microROS Concepts Documentation](https://micro.ros.org/docs/concepts/client_library/introduction/).
 
 ### Installing Ubuntu on a Windows Virutal Machine
-The class I am taking had us install `ROS2` on Ubuntu 22.04. `ROS2` and `microROS` seem to have better support for Ubuntu, but should work with Windows and macOS. The following steps should still apply but the commands will be different.
+The class I am taking had us install `ROS2` on Ubuntu 22.04. `ROS2` and `microROS` seem to have better support for Ubuntu, but should work with Windows and macOS. If you don't use Ubuntu, the following steps should still apply but the commands will be different.
 
 `VMWare` is now free and can be used to create virtal machines that allow you to run other OS than what is native to your computer. To install `VMWare` for Windows use this [download](https://vanderbilt365-my.sharepoint.com/:u:/g/personal/hao_yang_vanderbilt_edu/EV_91KZyB4xBiFNZSW5ffjQBcetFDbwrvGudhkRSaf6fvw?e=VUdvoN) and follow this [tutorial](https://shaileshjha.com/how-to-install-vmware-workstation-12-pro-on-windows-10/).
 
