@@ -8,6 +8,7 @@ An animatronic eyeball mechanism that rotates a sphereical eyeball 360° (or mor
    * [Mechatronics](##Mechatronics)
    * [Installation](##Installation)
    * [File Structure](##File)
+   * Acknowledgements(##Acknowledgements)
 <!--te-->
 
 ## About the Project
@@ -70,3 +71,13 @@ ros2 run micro_ros_setup flash_firmware.sh
 
 ## File Structure
 This project is structured with the root directory `Animatronic-Eyeball-Mechanism` containing two workspaces - `microros_Ws` and `ros2_ws`. I did this because the `microROS` applications that run on the microcontroller have a different build sequence than the traditional `ros2` packages that run on the host computer. There is likley a way to combine these into a single workspace but I left them separate for simplicity sake. All of the applications that will be flashed onto the ESP32 go into the `microros_ws/firmware/freertos_apps/apps` directory, and all of the `ROS2` packages to be run on the host computer go into the `ros2_ws/src` directory.
+
+## License
+This project is under the Apache 2.0 open source license.
+
+## Acknowledgements
+This project is still in development and thus there are likely to be errors or bugs that pop up. 
+
+I am an undergraduate mechanical engineer and recently found a passion for mechatronics. I have some academic experience with mechatronics and computer science but most of my knowledge has come from hands on experience through personal projects. I have spent countless hours trying to read through various code libraries, debugging problems, and searching the internet for help. I try to document my projects with the challenges I faced and the solutions I used the best I can to hopefully make it that much easier for the next person that comes along.
+
+If this project / guide inspired or helped you with your own project I'd love to hear about it. I am also willing to hear any feeback or discuss errors / bugs. Contact robert.t.polk@vanderbilt.edu.
