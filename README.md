@@ -8,7 +8,7 @@ An animatronic eyeball mechanism that rotates a sphereical eyeball 360° (or mor
    * [Mechatronics](##Mechatronics)
    * [Installation](##Installation)
    * [File Structure](##File)
-   * Acknowledgements(##Acknowledgements)
+   * [Acknowledgements](##Acknowledgements)
 <!--te-->
 
 ## About the Project
