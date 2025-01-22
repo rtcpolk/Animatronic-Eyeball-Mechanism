@@ -19,12 +19,14 @@ While the code in this repository is specialized for this mechanism, hopefully i
 ## Mechatronics
 This project utilizes the following:
 ```
-ESP32 Dev Modules
-MPU6050 6-Axis IMU
-DC Motors w/ Encoders
-Ubuntu 22.04 (run on a VM)
-ROS2 Humble
-microRos
+Software:
+  *Ubuntu 22.04 (run on a VM)
+  *ROS2 Humble
+  *microRos
+Hardware:
+  *ESP32 Dev Modules
+  *MPU6050 6-Axis IMU
+  *DC Motors w/ Encoders
 ```
 
 ## Installation
