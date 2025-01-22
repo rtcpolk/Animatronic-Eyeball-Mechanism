@@ -5,7 +5,7 @@ An animatronic eyeball mechanism that rotates a sphereical eyeball 360° (or mor
 
 <!--ts-->
    * [About the Project](https://github.com/rtcpolk/Animatronic-Eyeball-Mechanism/blob/main/README.md#about-the-project)
-   * [Mechatronics](##Mechatronics)
+   * [Mechatronics](https://github.com/rtcpolk/Animatronic-Eyeball-Mechanism/blob/main/README.md#mechatronics)
    * [Installation](##Installation)
    * [File Structure](##File)
    * [Acknowledgements](https://github.com/rtcpolk/Animatronic-Eyeball-Mechanism/blob/main/README.md#acknowledgements)
