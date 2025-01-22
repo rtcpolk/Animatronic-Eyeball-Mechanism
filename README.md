@@ -20,13 +20,13 @@ While the code in this repository is specialized for this mechanism, hopefully i
 This project utilizes the following:
 ```
 Software:
-  *Ubuntu 22.04 (run on a VM)
-  *ROS2 Humble
-  *microRos
+  * Ubuntu 22.04 (run on a VM)
+  * ROS2 Humble
+  * microRos
 Hardware:
-  *ESP32 Dev Modules
-  *MPU6050 6-Axis IMU
-  *DC Motors w/ Encoders
+  * ESP32 Dev Modules
+  * MPU6050 6-Axis IMU
+  * DC Motors w/ Encoders
 ```
 
 ## Installation
