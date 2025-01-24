@@ -1,6 +1,6 @@
 /build/
 /install/
 /log/
-/firmware/
-!firmware/freertos_apps/apps/eyeball_internal
-!firmware/freertos_apps/apps/eyeball_external
+/firmware/*
+!/firmware/freertos_apps/apps
+/src/micro_ros_setup
