@@ -1,3 +1,6 @@
-.log/
-.install/
-.build/
+/build/
+/install/
+/log/
+/firmware/
+!firmware/freertos_apps/apps/eyeball_internal
+!firmware/freertos_apps/apps/eyeball_external
