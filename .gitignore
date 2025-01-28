@@ -2,5 +2,7 @@
 /install/
 /log/
 /firmware/*
-!/firmware/freertos_apps/apps
+!/firmware/freertos_apps/apps/eyeball/
 /src/micro_ros_setup
+/compile_commands.json
+/eyeball_build.sh

@@ -1,5 +1,5 @@
 # Animatronic Eyeball Mechanism
-An animatronic eyeball mechanism that rotates a sphereical eyeball 360° (or more) around any axis. Developed using ROS2 with microROS for the ESP32.
+An animatronic eyeball mechanism that rotates a spherical eyeball 360° (or more) around any axis. Developed using ROS2 with microROS for the ESP32.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ An animatronic eyeball mechanism that rotates a sphereical eyeball 360° (or mor
 <!--te-->
 
 ## About the Project
-This eyeball mechanism is being developed by `Team Blink` at Vanderbilt University for our mechanical engineering senior captstone project. This project is sponsored by [Animax Designs](https://www.animaxdesigns.com/), a global animatronic company based in Nashville, TN. The mechanism is able to rotate a spherical eyeball around any axis and has two operational modes: `Path Following` and `Facial Tracking` (hopefully).
+This eyeball mechanism is being developed by `Team Blink` at Vanderbilt University for our mechanical engineering senior capstone project. This project is sponsored by [Animax Designs](https://www.animaxdesigns.com/), a global animatronic company based in Nashville, TN. The mechanism is able to rotate a spherical eyeball around any axis and has two operational modes: `Path Following` and `Facial Tracking` (hopefully).
 
 While the code in this repository is specialized for this mechanism, hopefully it can serve as a guide for those looking to integrate `ROS2` and `microROS` into their own robotics projects.
 
@@ -87,3 +87,6 @@ This project is still in development and thus there are likely to be errors or b
 I am an undergraduate mechanical engineer and recently found a passion for mechatronics. I have some academic experience with mechatronics and computer science but most of my knowledge has come from hands on experience through personal projects. I have spent countless hours trying to read through various code libraries, debugging problems, and searching the internet for help. I try to document my projects with the challenges I faced and the solutions I used to hopefully make it that much easier for the next person that comes along.
 
 If this project / guide inspired or helped you with your own project I'd love to hear about it. I am also willing to hear any feeback or discuss errors / bugs. Contact robert.t.polk@vanderbilt.edu.
+
+//todo update installation for clion
+// todo what did i change in teh build file
